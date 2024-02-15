@@ -16,7 +16,7 @@ class CatCard extends StatelessWidget {
           return CatDetailsScreen(cat: cat);
         }));
       },
-      child: Card(
+      child: Card( // test commit
         child: Column(
         children: [
           Expanded(child: Image.network(
